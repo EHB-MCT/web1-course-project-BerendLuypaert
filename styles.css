@@ -149,6 +149,29 @@ body {
 	line-height: 1.7;
 }
 
+.skills-logos {
+	margin-top: 16px;
+	display: flex;
+	flex-direction: column;
+	gap: 18px;
+}
+
+.skill-item {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+}
+
+.skill-item img {
+	width: 70px;
+	height: 70px;
+	object-fit: contain;
+}
+
+.skill-item p {
+	color: #111;
+}
+
 @media (max-width: 700px) {
 	.site-header {
 		flex-direction: column;
